@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\donss\\Desktop\\AM_Comics\\AM_Comics\\AM_Comics.csproj",
+      "projectUniqueName": "C:\\Users\\donss\\Desktop\\AM_Comics\\A-M\\AM_Comics\\AM_Comics.csproj",
       "projectName": "AM_Comics",
-      "projectPath": "C:\\Users\\donss\\Desktop\\AM_Comics\\AM_Comics\\AM_Comics.csproj",
+      "projectPath": "C:\\Users\\donss\\Desktop\\AM_Comics\\A-M\\AM_Comics\\AM_Comics.csproj",
       "packagesPath": "C:\\Users\\donss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\donss\\Desktop\\AM_Comics\\AM_Comics\\obj\\",
+      "outputPath": "C:\\Users\\donss\\Desktop\\AM_Comics\\A-M\\AM_Comics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -9,12 +9,12 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 </head>
 <body>
-    <header>
+    <div>
         <nav class="navigation">
                 <!-- Добавить сюда логотип -->
             <ul class="paragraphs" align="center">
                 <li class="paragraphs">
-                    <a class="paragraphs" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                    <a class="paragraphs" asp-area="" asp-controller="Home" asp-action="Index">Мои комиксы</a>
                 </li>
                 <li class="paragraphs">
                     <a class="paragraphs" asp-area="" asp-controller="Home" asp-action="Shop">Магазин</a>
@@ -30,13 +30,13 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    <footer>
+    <div>
         <ul>
             <li>
             &copy; 2020 - A&М
@@ -48,7 +48,7 @@
             Made in Russia
             </li>
         </ul>
-    </footer>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
