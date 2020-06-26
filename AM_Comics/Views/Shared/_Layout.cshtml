@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - A&M</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+                <!-- Добавить сюда логотип -->
+            <ul class="paragraphs" align="center">
+                <li class="paragraphs">
+                    <a class="paragraphs" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                </li>
+                <li class="paragraphs">
+                    <a class="paragraphs" asp-area="" asp-controller="Home" asp-action="Shop">Магазин</a>
+                </li>
+                <li class="paragraphs">
+                    <a class="paragraphs" asp-area="" asp-controller="Home" asp-action="Indi">Инди</a>
+                </li>
+                <li class="paragraphs">
+                    <span class="oi oi-magnifying-glass"></span>
+                </li>
+                <li class="paragraphs">
+                    <img class="paragraphs" src="C:\Users\donss\Desktop\AM_Comics\AM_Comics\Icons\User.ico">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer>
+        <ul>
+            <li>
+            &copy; 2020 - A&М
+            </li>
+            <li>
+            logo
+            </li>
+            <li>
+            Made in Russia
+            </li>
+        </ul>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
