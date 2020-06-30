@@ -1,40 +1,7 @@
-﻿html{
-    
-}
-
-.navigation {
-    position: absolute;
-    width: 100%;
+﻿body {
     height: 100%;
-    //z-index: -1000;
-    left: 0px;
-    top: 0px;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.65) 60.98%, rgba(0, 0, 0, 0.40) 75%, rgba(0, 0, 0, 0.25) 85%, rgba(0, 0, 0, 0.15) 90%, rgba(0, 0, 0, 0) 100%);
     background-blend-mode: darken;
-}
-
-.paragraphs {
-    margin-top: 1%;
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.paragraphs li {
-    margin-left: 5%;
-    display: inline;
-    /* font-family: Roboto; */
-}
-
-.paragraphs a {
-    text-decoration: none;
-    color: white;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 150%;
-}
-
-.paragraphs img {
-    height: 4%;
-    width: 4%;
+    background-repeat: no-repeat;
+    background-position:initial;
 }
