@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/picturre">
+    android:background="@drawable/picturre"
+    >
 
 
     <ImageView
@@ -38,15 +39,31 @@
 
     <EditText
         android:id="@+id/AddText"
-        android:layout_width="237dp"
+        android:layout_width="300dp"
         android:layout_height="62dp"
         android:background="@drawable/fields2"
         android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.39" />
+
+    <EditText
+        android:id="@+id/AddText2"
+        android:layout_width="300dp"
+        android:layout_height="62dp"
+        android:background="@drawable/fields2"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
 
     <TextView
         android:id="@+id/textView2"
@@ -64,18 +81,6 @@
         app:layout_constraintTop_toBottomOf="@+id/AddText"
         app:layout_constraintVertical_bias="1.0" />
 
-    <EditText
-        android:id="@+id/AddText2"
-        android:layout_width="237dp"
-        android:layout_height="62dp"
-        android:background="@drawable/fields2"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
-
     <Button
         android:id="@+id/button5"
         android:layout_width="237dp"
@@ -85,6 +90,7 @@
         android:text="@string/enter"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
