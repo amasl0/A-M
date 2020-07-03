@@ -1,0 +1,4 @@
+#Fri Jul 03 22:12:57 MSK 2020
+base.0=C\:\\Users\\donss\\Desktop\\AM_Comics\\A-M\\StartPage\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
