@@ -7,22 +7,20 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
-    public void click_entr(View view) {
-        Intent act_entr = new Intent(MainActivity.this, com.example.startpage.EnterActivity.class);
-        setContentView(R.layout.second_page);
-        startActivity(act_entr);
+    public void onClickEnterButton(View view) {
+        Intent enterActivity = new Intent(MainActivity.this, EnterActivity.class);
+        startActivity(enterActivity);
     }
 
-    public void click_rgstr(View view) {
-        Intent act_rgstr = new Intent(MainActivity.this, RegistrationActivity.class);
-        setContentView(R.layout.registration);
-        startActivity(act_rgstr);
+    public void onClickRegButton(View view) {
+        Intent regActivity = new Intent(MainActivity.this, RegistrationActivity.class);
+        startActivity(regActivity);
     }
 }
