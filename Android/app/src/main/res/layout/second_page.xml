@@ -5,21 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/picturre"
+    tools:context=".EnterActivity"
     >
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="118dp"
+        android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_marginBottom="33dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintVertical_bias="0.546"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/textView"
@@ -43,15 +47,16 @@
         android:layout_height="62dp"
         android:background="@drawable/fields2"
         android:inputType="text"
-        android:paddingRight="25dp"
         android:paddingLeft="25dp"
+        android:paddingRight="25dp"
         android:textColor="#000000"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <EditText
         android:id="@+id/AddText2"
@@ -66,9 +71,10 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562" />
+        app:layout_constraintVertical_bias="0.672" />
 
     <TextView
         android:id="@+id/textView2"
@@ -90,12 +96,12 @@
         android:id="@+id/button5"
         android:layout_width="237dp"
         android:layout_height="62dp"
-        android:layout_marginTop="102dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/fields"
         android:text="@string/enter"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -108,7 +114,7 @@
         android:layout_height="62dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/fields3"
-        android:text="@string/registration1"
+        android:text="@string/registration"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -117,5 +123,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:text="Вход"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -745,6 +745,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addText
+id addText2
 id alertTitle
 id always
 id async
@@ -752,8 +754,8 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
-id button2
+id but_entr
+id but_rgstr
 id button5
 id button6
 id buttonPanel
@@ -863,6 +865,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
+id textView6
 id time
 id title
 id titleDividerNoCustom
@@ -924,6 +930,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout registration
 layout second_page
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -959,12 +966,13 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string confirm
+string email
 string enter
-string enter1
 string login
 string password
 string registration
-string registration1
+string repeat_password
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
