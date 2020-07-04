@@ -23,5 +23,3 @@ public class MainActivity extends AppCompatActivity {
         startActivity(regActivity);
     }
 }
-
-//Test message for github, you can delete it
