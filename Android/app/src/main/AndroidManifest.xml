@@ -17,8 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EnterActivity"
-            android:parentActivityName=".MainActivity">
+            android:name=".EnterActivity">
             <intent-filter>
                 <action android:name=".EnterActivity" />
 
@@ -27,8 +26,7 @@
         </activity>
 
         <activity
-            android:name=".RegistrationActivity"
-            android:parentActivityName=".MainActivity">
+            android:name=".RegistrationActivity">
             <intent-filter>
                 <action android:name=".RegistrationActivity" />
 
