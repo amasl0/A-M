@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/picturre"
+    tools:context=".EnterActivity"
     >
 
 
@@ -113,7 +114,7 @@
         android:layout_height="62dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/fields3"
-        android:text="@string/registration1"
+        android:text="@string/registration"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
