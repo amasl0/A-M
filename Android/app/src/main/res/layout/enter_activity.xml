@@ -5,25 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/picturre"
-    tools:context=".EnterActivity"
-    >
+    tools:context=".EnterActivity">
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo_image"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_marginBottom="33dp"
-        android:textStyle="bold"
-        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.546"
-        app:srcCompat="@drawable/logo"
-        android:layout_gravity="center_horizontal" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView"
@@ -115,6 +110,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/fields3"
         android:text="@string/registration"
+        android:onClick="onClickRegButton"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
