@@ -14,12 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void click_entr(View view) {
-        Intent act_entr = new Intent(MainActivity.this, EnterActivity.class);
+    public void click_entr(View view) {
+        Intent act_entr = new Intent(MainActivity.this, com.example.startpage.EnterActivity.class);
+        setContentView(R.layout.second_page);
         startActivity(act_entr);
     }
 
-    private void click_rgstr(View view) {
+    public void click_rgstr(View view) {
         Intent act_rgstr = new Intent(MainActivity.this, RegistrationActivity.class);
         setContentView(R.layout.registration);
         startActivity(act_rgstr);

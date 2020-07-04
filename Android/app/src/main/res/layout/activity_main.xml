@@ -28,7 +28,7 @@
         android:layout_width="237dp"
         android:layout_height="50dp"
         android:background="@drawable/fields"
-        android:onClick="click_regstr"
+        android:onClick="click_rgstr"
         android:text="@string/registration"
         android:textColor="#000000"
         android:textSize="18sp"
