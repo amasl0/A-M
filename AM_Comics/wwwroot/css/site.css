@@ -1,7 +1,0 @@
-﻿body {
-    height: 100%;
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.65) 60.98%, rgba(0, 0, 0, 0.40) 75%, rgba(0, 0, 0, 0.25) 85%, rgba(0, 0, 0, 0.15) 90%, rgba(0, 0, 0, 0) 100%);
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-position:initial;
-}

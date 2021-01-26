@@ -1,0 +1,165 @@
+.main {
+    display: grid;
+    grid-template-rows:  20% 70%;
+    grid-template-areas: "names_pages"
+                         "catalog";
+    grid-row-gap: 4vw;
+
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+
+
+h1.names_pages {
+
+    margin-top: 1em;
+    font-size: 4em;
+    grid-area: names_pages;
+}
+
+.content {
+    grid-area: catalog;
+
+    width: 100%;
+
+    display: grid;
+
+    justify-items:left;
+
+    grid-template-columns: 100%;
+    grid-column-gap: 3em;
+
+    grid-template-areas:    "name"
+                            "carousel";
+}
+
+.carousel-wrapper {
+    background-color: red;
+}
+
+.content h2{
+    grid-area: name;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.voting {
+    top:0;
+    left: 0;
+    position: relative;
+    display: block;
+    height: 20em;
+    width: 13.5em;
+    background-color: red;
+    border-radius: 0.2em;
+}
+
+.voting a{
+    text-decoration: none;
+    color: black;
+/* загрузка картинки */
+}
+
+.cmx-1 {
+    grid-area: cmx-1;
+}
+
+.cmx-2 {
+    grid-area: cmx-2;
+}
+
+.cmx-3 {
+    grid-area: cmx-3;
+}
+
+.cmx-4 {
+    grid-area: cmx-4;
+}
+
+@media screen and (max-width: 1300px){
+    .content {
+        grid-template-columns: 27% 27% 27%;
+        grid-column-gap: 3em;
+
+        grid-auto-rows: 5em 15em;
+
+        grid-template-areas:    "name name name"
+                                "cmx-1 cmx-2 cmx-3";
+    }
+
+    .content h2{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .content {
+        grid-template-columns: 30% 30% 15%;
+        grid-column-gap: 2em;
+
+        grid-auto-rows: 5em 15em;
+
+        grid-template-areas:    "name name name"
+                                "cmx-1 cmx-2";
+    }
+
+    h1.names_pages {
+        font-size: 3.5em;
+    }
+
+    .content h2{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    h1.names_pages {
+        font-size: 3.3em;
+    }
+
+    .content h2{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 780px){
+
+    h1.names_pages {
+        font-size: 3.1em;
+    }
+
+    .content h2{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .content {
+        justify-content: center;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 10%;
+
+        grid-auto-rows: 5em 15em;
+
+        grid-template-areas:    "name name"
+                                "cmx-1 cmx-2";
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content {
+        justify-content: center;
+        grid-template-columns: 80%;
+        grid-column-gap: 10%;
+
+        grid-auto-rows: 5em 15em;
+
+        grid-template-areas:    "name"
+                                "cmx-1";
+    }
+
+    h1.names_pages {
+        font-size: 2em;
+    }
+}
