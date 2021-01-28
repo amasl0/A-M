@@ -19,7 +19,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
@@ -61,24 +61,24 @@ h2, h3, h4, h5, h6 {
 .left-menu li a:hover {
     background: #A3FFD3;
     color: #202020;
+    box-shadow: 0 0 5em -13px rgba(0, 0, 0, 1);
     border-radius: 0 0.3em 0.3em 0;
     transition-duration: 0.1ms;
 }
 
-.left-menu li a.user_circle span{
+.left-menu li a.user_circle span {
     padding-top: 1em;
     font-size: 2em;
 }
 
 .left-menu li a.user_circle:hover {
-    background: linear-gradient(to right, #040404 0%, #0b0b0b 62.44%);
     color: #A3FFD3;
-
+    background-color: #202020;
 }
 
-.left-menu li a.settings{
+.left-menu li a.settings {
     position: absolute; /* добавили */
-    bottom:0; /* добавили */
+    bottom: 0; /* добавили */
     margin-bottom: 2em;
 }
 
@@ -105,10 +105,12 @@ h2, h3, h4, h5, h6 {
     display: grid;
     position: relative;
 
-    top:0;
+    top: 0;
     right: 0;
 
-    padding-left: 10%;
+    padding-left: 7%;
+    padding-right: 5%;
+    margin-top: 2em;
     margin-left: 2em;
     background-color: #202020;
     color: #ffffff;
@@ -162,7 +164,7 @@ ul.bottom-menu {
     transition: background 0.1s ease-in-out;
 }
 
-.bottom-menu li a:hover{
+.bottom-menu li a:hover {
     color: #A3FFD3;
     transition-duration: 0.1ms;
 }
@@ -179,7 +181,7 @@ ul.bottom-menu {
     .main {
         padding-left: 1em;
         padding-right: 1em;
-        margin:0;
+        margin: 0;
         text-align: center;
     }
 
@@ -192,13 +194,13 @@ ul.bottom-menu {
     }
 }
 
-@media screen and (max-height: 700px){
-    .left-menu li a.settings{
+@media screen and (max-height: 700px) {
+    .left-menu li a.settings {
         position: relative; /* добавили */
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
     ul.left-menu {
         visibility: visible;
     }
@@ -207,5 +209,3 @@ ul.bottom-menu {
         visibility: hidden;
     }
 }
-
-

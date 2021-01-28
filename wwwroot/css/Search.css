@@ -1,0 +1,17 @@
+
+
+.search {
+    position: relative;
+
+    height: 4em;
+
+    background-color: #505050;
+    text-align: left;
+    color: #909090;
+
+    margin-right: 2em;
+
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+}

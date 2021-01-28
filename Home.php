@@ -11,7 +11,10 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <script src="wwwroot/js/site.js"></script>
 </head>
 
 <body>
@@ -64,9 +67,17 @@
 </ul>
 
 <div class="main">
+<!--    <h1 class="names_pages">Домашняя страница</h1>-->
+<!---->
+<!--    -->
+<!--    <div class="content">-->
+<!--        <h2>Заполните анкету, чтобы мы могли подобрать комиксы</h2>-->
+<!--    -->
+<!--    </div>-->
     <?php
-    include ("Main.php");
+        include "Search.php";
     ?>
+
 </div>
 
 <ul class="bottom-menu">
@@ -107,7 +118,8 @@
     </li>
 </ul>
 
-
+<!--<script type="text/javascript" src="wwwroot/lib/jquery/dist/jquery.js"></script>-->
+<!--<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<!--<script type="text/javascript" src="slick/slick.min.js"></script>-->
 </body>
-
 </html>
