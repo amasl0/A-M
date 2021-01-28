@@ -1,3 +1,12 @@
+<?php
+$pages = ['Main.php', 'Search.php', 'Auth.php'];
+$index = 0;
+
+function transition_page($index_page){
+    $index = $index_page;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -8,6 +17,7 @@
     <link href="wwwroot/css/media.css" rel="stylesheet">
     <link href="wwwroot/css/site.css" rel="stylesheet">
     <link href="wwwroot/css/Pages.css" rel="stylesheet">
+    <link href="wwwroot/css/auth.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,28 +30,28 @@
 <body>
 <ul class="left-menu">
     <li>
-        <a href="#" class="user_circle">
+        <a href="Main.php?index=" class="user_circle" >
                 <span class="material-icons">
                     account_circle
                 </span>
         </a>
     </li>
     <li>
-        <a href="https://vk.com/">
+        <a href="Main.php?index=" onclick="document.write('<?php transition_page(0); ?>')">
                 <span class="material-icons">
                     home
                 </span>
         </a>
     </li>
     <li>
-        <a href="https://vk.com/">
+        <a href="#">
                 <span class="material-icons md-56">
                     favorite
                 </span>
         </a>
     </li>
     <li>
-        <a href="https://vk.com/">
+        <a href="Main.php?index=" onclick="document.write('<?php transition_page(2); ?>')">
                 <span class="material-icons md-56">
                     search
                 </span>
@@ -67,17 +77,9 @@
 </ul>
 
 <div class="main">
-<!--    <h1 class="names_pages">Домашняя страница</h1>-->
-<!---->
-<!--    -->
-<!--    <div class="content">-->
-<!--        <h2>Заполните анкету, чтобы мы могли подобрать комиксы</h2>-->
-<!--    -->
-<!--    </div>-->
     <?php
-        include "Search.php";
+        include "Auth.php";
     ?>
-
 </div>
 
 <ul class="bottom-menu">

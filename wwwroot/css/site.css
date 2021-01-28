@@ -9,7 +9,7 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    background-color: #202020;
+    background-color: #101010;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h2, h3, h4, h5, h6 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #202020;
+    background-color: #101010;
     backdrop-filter: blur(5px);
 
     z-index: 2;
@@ -60,7 +60,7 @@ h2, h3, h4, h5, h6 {
 
 .left-menu li a:hover {
     background: #A3FFD3;
-    color: #202020;
+    color: #101010;
     box-shadow: 0 0 5em -13px rgba(0, 0, 0, 1);
     border-radius: 0 0.3em 0.3em 0;
     transition-duration: 0.1ms;
@@ -73,7 +73,7 @@ h2, h3, h4, h5, h6 {
 
 .left-menu li a.user_circle:hover {
     color: #A3FFD3;
-    background-color: #202020;
+    background-color: #101010;
 }
 
 .left-menu li a.settings {
@@ -112,7 +112,7 @@ h2, h3, h4, h5, h6 {
     padding-right: 5%;
     margin-top: 2em;
     margin-left: 2em;
-    background-color: #202020;
+    background-color: #101010;
     color: #ffffff;
 
     z-index: 1;
@@ -200,7 +200,7 @@ ul.bottom-menu {
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 699px) {
     ul.left-menu {
         visibility: visible;
     }

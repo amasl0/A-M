@@ -1,0 +1,40 @@
+.main-authentication {
+    position: relative;
+    display: grid;
+    grid-template-rows: 5em 23em 3em 7em;
+    grid-row-gap: 1em;
+    grid-template-columns: 100%;
+
+    grid-template-areas:
+        "names_pages"
+        "text-areas"
+        "btn_confirm"
+        "google_apple_sing_in";
+
+    text-align: center;
+    /*grid-row-gap: 3.5vh;*/
+
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.main-authentication h1 {
+    justify-content: center;
+    justify-items: center;
+    font-size: 3em;
+    grid-area: names_pages;
+}
+
+.text-input {
+    grid-area: text-areas;
+    background-color: #A3FFD3;
+}
+
+.btn-conf {
+    grid-area: btn_confirm;
+    background-color: red;
+}
+
+.google-apple {
+    grid-area: google_apple_sing_in;
+    background-color: yellow;
+}
