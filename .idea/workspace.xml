@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TEST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,6 +46,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Xans\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +63,15 @@
       <workItem from="1610840528799" duration="3607000" />
       <workItem from="1611137952017" duration="3592000" />
       <workItem from="1611166193876" duration="76371000" />
+      <workItem from="1611923048685" duration="4681000" />
+      <workItem from="1612050962192" duration="4913000" />
+      <workItem from="1612257464487" duration="32828000" />
+      <workItem from="1612867098244" duration="1516000" />
+      <workItem from="1612868816913" duration="347000" />
+      <workItem from="1612869186858" duration="16000" />
+      <workItem from="1612869205387" duration="14845000" />
+      <workItem from="1612952918940" duration="668000" />
+      <workItem from="1613078262971" duration="442000" />
     </task>
     <servers />
   </component>

@@ -1,149 +1,167 @@
 .main-catalog {
+    height: 100%;
+    margin-bottom: 2em;
     display: grid;
-    grid-template-rows: 8em 30em;
+    grid-template-rows: 4em;
+    grid-auto-rows: 33em;
+
+    grid-row-gap: 5em;
     grid-template-areas:
-        "names_pages"
-        "content";
-    grid-row-gap: 3.5vh;
+        "names_pages";
 
     /*font-family: 'Montserrat', sans-serif;*/
 }
 
 h1.names_pages {
-    margin-top: 1em;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding: 0;
+
+    position: relative;
     font-size: 4em;
     grid-area: names_pages;
 }
 
+
 .content {
-    grid-area: content;
-
-    width: 100%;
-
+    height: 100%;
     display: grid;
 
-    justify-items:left;
-    grid-row-gap: 3em;
-    grid-template-rows: 3em 24em;
+    grid-row-gap: 2em;
+    grid-template-rows: 3em 29em;
+    grid-auto-rows: 29em;
 
     grid-template-areas:    "name"
-                            "carousel";
+                            "galary";
 }
 
 .content h2{
+    position: relative;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    justify-items: center;
     grid-area: name;
     font-weight: 500;
     font-size: 2em;
 }
 
-.carousel {
-    grid-area: carousel;
-
-    position: relative;
+.gallery {
+    height: 100%;
+    grid-area: galary;
     display: grid;
+    grid-template-columns: 19em 19em 19em 19em;
+    grid-template-rows: 29em;
 
-    height: 24em;
-    width: 100%;
+    grid-auto-columns: 19em 19em 19em 19em;
+    grid-auto-rows: 29em;
 
+    grid-gap: 4em;
 
+    grid-template-areas: "cmx cmx cmx cmx";
 
-
-    grid-template-columns: 17em 17em 17em 17em;
-    grid-column-gap: 3em;
 }
 
-.item {
-    position: relative;
+/*.cmx {*/
 
-    background-color: #47a3da;
-    height: 24em;
-    width: 17em;
+/*    margin-bottom: 4em;*/
+/*}*/
+
+.cmx img {
+    grid-area: cmx;
+    width: 100%;
+    height: 100%;
+    max-width: 19em;
+    max-height: 29em;
     border-radius: 0.3em;
 }
 
-/* Поисковая страница */
 
-.main-catalog {
-    display: grid;
-    grid-template-rows: 8em 30em;
-    grid-template-areas:
-        "names_pages"
-        "content";
-    grid-row-gap: 3.5vh;
-}
+@media screen and (max-width: 1700px){
 
-h1.names_pages {
-    margin-top: 1em;
-    font-size: 4em;
-    grid-area: names_pages;
-}
+    .gallery {
+        grid-template-columns: 19em 19em 19em;
+        grid-template-rows: 29em;
 
+        grid-auto-columns: 19em 19em 19em;
+        grid-auto-rows: 29em;
 
+        grid-gap: 4em;
 
-.search {
-    position: relative;
-
-    height: 3.5em;
-    width: 100%;
-
-    border: none;
-    outline: none;
-    resize: none;
-    overflow: hidden;
-
-
-    background-color: #272727;
-    text-align: left;
-    justify-content: center;
-    color: #FFFFFF;
-
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 1.3em;
-
-    padding-left: 2em;
-    padding-right: 2em;
-    line-height: 3.5em;
-    border-radius: 10px;
-}
-
-input:-moz-placeholder,
-input::-webkit-input-placeholder {
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 2em;
-    color: #FFFFFF;
-}
-
-@media screen and (max-width: 1300px){
-
-    .content h2{
-        font-size: 1.5em;
+        grid-template-areas: "cmx cmx cmx";
     }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1200px){
+    .content h2{
+        font-size: 1.6em;
+    }
 
+    .gallery {
+        grid-template-columns: 19em 19em;
+        grid-template-rows: 29em;
+
+        grid-auto-columns: 19em 19em;
+        grid-auto-rows: 29em;
+
+        grid-gap: 4em;
+
+        grid-template-areas: "cmx cmx";
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .carousel {
+        justify-items: center;
+        justify-content: center;
+    }
 
     h1.names_pages {
         font-size: 3.5em;
     }
 
     .content h2{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
+
+
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 800px){
+    .main-catalog {
+        grid-row-gap: 3em;
+    }
 
     h1.names_pages {
         font-size: 3.3em;
     }
 
+    .content {
+        grid-row-gap: 2em;
+    }
+
     .content h2{
-        font-size: 1.2em;
+        font-size: 1.14em;
+
+    }
+
+    .gallery {
+        grid-template-columns: 19em;
+        grid-template-rows: 29em;
+
+        grid-auto-columns: 19em;
+        grid-auto-rows: 29em;
+
+        grid-gap: 2em;
+
+        grid-template-areas: "cmx";
+
+        justify-content: center;
     }
 }
+
+
 
 @media screen and (max-width: 750px){
 
@@ -154,15 +172,13 @@ input::-webkit-input-placeholder {
     h1.names_pages {
         font-size: 3em;
     }
-
-
-
-    /*.content h2{*/
-    /*    font-size: 1.1em;*/
-    /*}*/
 }
 
 @media screen and (max-width: 700px){
+    .main-catalog {
+        margin-top: 5em;
+    }
+
     .content {
         justify-content: center;
     }
@@ -176,4 +192,41 @@ input::-webkit-input-placeholder {
     h1.names_pages {
         font-size: 2.5em;
     }
+}
+
+
+
+
+
+
+
+
+/* slider */
+
+#slides {
+    position: relative;
+    height: 24em;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    background-color: #47a3da;
+    height: 24em;
+    width: 17em;
+    border-radius: 0.3em;
+
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
 }
