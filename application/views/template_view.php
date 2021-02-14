@@ -10,13 +10,12 @@ $version = time();
 
     <title>Xans</title>
 
-
-
     <link href="/css/media.css<?php echo $version;?>" rel="stylesheet">
-    <link href="/css/site.css" rel="stylesheet">
-    <link href="/css/Pages.css" rel="stylesheet">
-    <link href="/css/auth.css" rel="stylesheet">
-    <link href="/css/Search.css" rel="stylesheet">
+    <link href="/css/style_site.css" rel="stylesheet">
+    <link href="/css/style_pages.css" rel="stylesheet">
+    <link href="/css/style_auth.css" rel="stylesheet">
+    <link href="/css/style_search.css" rel="stylesheet">
+    <link href="/css/style_comics.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -73,6 +72,7 @@ $version = time();
 <div class="main">
     <?php
     include "application/views/".$content_view;
+
     ?>
 
 </div>
@@ -114,6 +114,5 @@ $version = time();
     </li>
 </ul>
 
-<script src="wwwroot/lib/jquery/dist/jquery.min.js"></script>
 </body>
 </html>

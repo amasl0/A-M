@@ -1,0 +1,16 @@
+.main-comics {
+    display: inline-block;
+    position: relative;
+}
+
+.background-comics img {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+}
+
+.info-comics {
+
+    z-index: 1;
+}
