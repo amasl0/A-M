@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285cef46-3ab6-4b3b-ad55-1b1fd37fe203" name="Default Changelist" comment="" />
+    <list default="true" id="ca472206-5876-4340-82d8-898e03ab7921" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,23 +10,7 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1nAkwu0Y8uEPsZ6rKxRPj0g8pI4" />
+  <component name="ProjectId" id="1oRA9hRgmLhV2mY9Ho232wBcEHd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,42 +20,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\XAMPP\htdocs\Xans\img" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="285cef46-3ab6-4b3b-ad55-1b1fd37fe203" name="Default Changelist" comment="" />
-      <created>1610840527462</created>
+      <changelist id="ca472206-5876-4340-82d8-898e03ab7921" name="Default Changelist" comment="" />
+      <created>1613238879781</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610840527462</updated>
-      <workItem from="1610840528799" duration="3607000" />
-      <workItem from="1611137952017" duration="3592000" />
-      <workItem from="1611166193876" duration="76371000" />
-      <workItem from="1611923048685" duration="4681000" />
-      <workItem from="1612050962192" duration="4913000" />
-      <workItem from="1612257464487" duration="32828000" />
-      <workItem from="1612867098244" duration="1516000" />
-      <workItem from="1612868816913" duration="347000" />
-      <workItem from="1612869186858" duration="16000" />
-      <workItem from="1612869205387" duration="14845000" />
-      <workItem from="1612952918940" duration="668000" />
-      <workItem from="1613078262971" duration="442000" />
+      <updated>1613238879781</updated>
+      <workItem from="1613238882317" duration="4743000" />
     </task>
     <servers />
   </component>

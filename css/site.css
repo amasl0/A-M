@@ -1,0 +1,229 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*html, body {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* Левое навигационное меню */
+.left-menu {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    backdrop-filter: blur(5px);
+
+    z-index: 2;
+}
+
+.left-menu li a {
+    display: block;
+    margin-bottom: 1em;
+    height: 5em;
+    width: 5em;
+    line-height: 6em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    border-radius: 0 0.3em 0.3em 0;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    transition: background 0.1s ease-in-out;
+}
+
+.left-menu span {
+    font-size: 2em;
+}
+
+.left-menu li a:hover {
+    background: #A3FFD3;
+    color: #101010;
+    box-shadow: 0 0 5em -13px rgba(0, 0, 0, 1);
+    border-radius: 0 0.3em 0.3em 0;
+    transition-duration: 0.1ms;
+}
+
+.left-menu li a.user_circle span {
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+.left-menu li a.user_circle:hover {
+    color: #A3FFD3;
+    background-color: #101010;
+}
+
+.left-menu li a.settings {
+    position: absolute; /* добавили */
+    bottom: 0; /* добавили */
+    margin-bottom: 2em;
+}
+
+/* класс активного элемента */
+
+.left-menu li.cbp-vicurrent a {
+    background: #fff;
+    color: #47a3da;
+}
+
+.left-menu li a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.4em;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Настройка Main */
+
+.main {
+    display: block;
+    position: relative;
+
+    /*grid-template-rows: 38em;*/
+    /*grid-auto-rows: 25em;*/
+    /*grid-template-columns: 100%;*/
+    /*grid-auto-columns: 100%;*/
+
+    top: 0;
+    right: 0;
+
+    padding-left: 13%;
+    /*margin-left: 3em;*/
+    /*margin-right:2em;*/
+    background-color: #101010;
+    color: #ffffff;
+    z-index: 1;
+}
+
+/* Нижнее навигационное меню для моб устройств*/
+
+ul.bottom-menu {
+    overflow: hidden;
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    width: 100%;
+    height: 4em;
+
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: #202020;
+
+    z-index: 2;
+}
+
+.bottom-menu li {
+    list-style-type: none;
+    flex-basis: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bottom-menu li a {
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: 4em;
+
+    line-height: 4.5em;
+
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0.3em 0.3em;
+    transition: background 0.1s ease-in-out;
+}
+
+.bottom-menu li a:hover {
+    color: #A3FFD3;
+    transition-duration: 0.1ms;
+}
+
+/*Скрытие меню для смартфонов*/
+@media screen and (min-width: 1700px){
+    .main{
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    ul.left-menu {
+        font-size: 2em;
+        visibility: hidden;
+        display: none;
+    }
+
+    .main {
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: -1em;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h1.names_pages {
+        font-size: 2em;
+    }
+
+    ul.bottom-menu {
+        visibility: visible;
+    }
+
+
+}
+
+@media screen and (max-height: 700px) {
+    .left-menu li a.settings {
+        position: relative; /* добавили */
+    }
+}
+
+@media screen and (min-width: 699px) {
+    ul.left-menu {
+        visibility: visible;
+    }
+
+    ul.bottom-menu {
+        visibility: hidden;
+    }
+}
