@@ -1,30 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca472206-5876-4340-82d8-898e03ab7921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/controllers/controller_comics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/comics_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style_comics.css" afterDir="false" />
+    <list default="true" id="ca472206-5876-4340-82d8-898e03ab7921" name="Default Changelist" comment="Переименовывание стилей согласно новому стандарту, добавление контроллера и представления store и comics.">
+      <change afterPath="$PROJECT_DIR$/Library/Maus/galary/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Maus/galary/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Maus/galary/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Maus/galary/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/controller_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style_404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/setting_carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/htdocs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/controller_contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/controller_store.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/contacts_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/store_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Akira/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Akira/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Akira/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Akira/cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/controller_404.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/controller_404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/model_portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/model_comics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/404_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/404_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/comics_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/comics_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/store_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/store_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/template_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Pages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/auth.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Akira.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Maus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/MikkiMaus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Nausikaya.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/OnePunchMan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Sokol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Watchman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/berserk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.6.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_comics.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_comics.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_site.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +54,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,12 +70,16 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oRA9hRgmLhV2mY9Ho232wBcEHd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,8 +101,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613238879781</updated>
-      <workItem from="1613238882317" duration="13867000" />
+      <workItem from="1613238882317" duration="39482000" />
+      <workItem from="1613745012028" duration="1814000" />
+      <workItem from="1613827402772" duration="3548000" />
+      <workItem from="1613941433338" duration="251000" />
+      <workItem from="1614105020543" duration="10687000" />
+      <workItem from="1614121098768" duration="259000" />
+      <workItem from="1614121378163" duration="258000" />
     </task>
+    <task id="LOCAL-00001" summary="Переименовывание стилей согласно новому стандарту, добавление контроллера и представления store и comics.">
+      <created>1613340185961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613340185961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,10 +127,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Переименовывание стилей согласно новому стандарту, добавление контроллера и представления store и comics." />
+    <option name="LAST_COMMIT_MESSAGE" value="Переименовывание стилей согласно новому стандарту, добавление контроллера и представления store и comics." />
   </component>
 </project>

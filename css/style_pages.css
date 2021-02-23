@@ -1,6 +1,5 @@
 .main-catalog {
-
-    width: 100%;
+    margin-left: 16%;
     margin-top:5%;
     margin-bottom: 2em;
     display: inline-block;
@@ -79,6 +78,7 @@ h1.names_pages {
     max-width: 19em;
     max-height: 29em;
     border-radius: 0.3em;
+    border: none;
 }
 
 @media screen and (min-width: 1700px){
@@ -143,6 +143,10 @@ h1.names_pages {
 
 @media screen and (max-width: 800px){
     .main-catalog {
+        margin-top: 5em;
+        margin-left: 1em;
+        margin-right: 1em;
+
         grid-row-gap: 3em;
     }
 
@@ -188,13 +192,23 @@ h1.names_pages {
 }
 
 @media screen and (max-width: 700px){
-    .main-catalog {
-        margin-top: 5em;
-    }
+
 
     .content {
         justify-content: center;
-        margin-bottom: 5em;
+    }
+
+    .gallery {
+        grid-template-columns: 12em;
+        grid-template-rows: 19em;
+
+        grid-auto-columns: 12em;
+        grid-auto-rows: 19em;
+    }
+
+    .cmx img{
+        max-width: 12em;
+        max-height: 19em;
     }
 }
 

@@ -16,17 +16,22 @@ $version = time();
     <link href="/css/style_auth.css" rel="stylesheet">
     <link href="/css/style_search.css" rel="stylesheet">
     <link href="/css/style_comics.css" rel="stylesheet">
+    <link href="/css/style_404.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
+
+    <link rel="stylesheet" href="/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/owlcarousel/assets/owl.theme.default.min.css">
 </head>
 
 <body>
+
 <ul class="left-menu">
     <li>
-        <a href="/user" class="user_circle" >
+        <a href="/auth" class="user_circle" >
                 <span class="material-icons">
                     account_circle
                 </span>
@@ -72,10 +77,10 @@ $version = time();
 <div class="main">
     <?php
     include "application/views/".$content_view;
-
     ?>
 
 </div>
+
 <ul class="bottom-menu">
     <li>
         <a href="/">
@@ -114,5 +119,8 @@ $version = time();
     </li>
 </ul>
 
+<script src="/js/jquery.js"></script>
+<script src="/owlcarousel/owl.carousel.min.js"></script>
+<script src="/js/setting_carousel.js"></script>
 </body>
 </html>

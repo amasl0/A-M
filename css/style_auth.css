@@ -1,12 +1,23 @@
-.main {
-    backdrop-filter: blur(20px);
+.background-auth {
+    position: absolute;
+    background:linear-gradient(
+            0deg, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+    url("../img/bg-1.jpg");
+    filter: blur(1px);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
 }
 
 .main-authentication {
+    z-index: 1;
     position: relative;
     display: grid;
-    grid-template-rows: 5em 20em 5em 7em;
-    grid-row-gap: 1em;
+    grid-template-rows: 5em 15em 7em;
+    grid-row-gap: 4em;
+    padding-top: 7%;
     grid-template-columns: 100%;
     grid-template-areas:
         "names_pages"
@@ -22,8 +33,7 @@
 .href-names{
     grid-area: names_pages;
 
-    margin: 0;
-    padding: 0;
+
 
     display: inline;
 
@@ -38,8 +48,10 @@
 }
 
 .href-names h1 {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 4em;
 
 }
 
@@ -61,11 +73,10 @@
     grid-area: text-areas;
     text-align: center;
     position: relative;
-    height: 100%;
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
     /*background-color: #A3FFD3;*/
 }
 
@@ -84,7 +95,7 @@
 
 .input h2 {
     grid-area: name;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .input input {
@@ -118,8 +129,8 @@
 .btn-conf {
     grid-area: btn_confirm;
 
-    height: 60%;
-    width: 38%;
+    height: 50%;
+    width: 36.9%;
 
     border: none;
     border-radius: 10px;

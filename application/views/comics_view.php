@@ -1,29 +1,52 @@
 <div class="main-comics">
     <div class="background-comics">
-        <img src="/Library/Akira/background.jpg">
+    </div>
+    <div class="content_page">
+        <div class="comics">
+            <div class="cover_comics"><img src="/Library/Maus/cover.jpg" alt=""></div>
+
+            <div class="info_comics">
+                <h1>Маус</h1>
+
+                <div class="about_comics">
+                    <h2>Автор: Арт Шпигельман</h2>
+                    <h2>Количество выпусков: 1</h2>
+                    <h2>Количество подписчиков: 125 521</h2>
+                    <h2>Возврастной рейтинг: 18+</h2>
+                </div>
+                <div class="btn_comics">
+                    <a class="read_comics" href="#">
+                        <h2>Читать</h2>
+                    </a>
+                    <a class="favorite_comics" href="#">
+                    <span class="material-icons">
+                        favorite
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-comics">
+            <h1>Галерея</h1>
+            <div class="owl-carousel">
+                <div class="img_item">
+                    <img class="item" src="/Library/Maus/galary/1.jpg">
+                </div>
+                <div class="img_item">
+                    <img class="item" src="/Library/Maus/galary/2.jpg">
+                </div>
+                <div class="img_item">
+                    <img class="item" src="/Library/Maus/galary/3.jpg">
+                </div>
+                <div class="img_item">
+                    <img class="item" src="/Library/Maus/galary/4.jpg">
+                </div>
+            </div>
+
+
+
+        </div>
     </div>
 
-    <div class="info-comics">
-        <div class="cover_comics"><img src="/Library/Akira/cover.jpg"></div>
-        <h1>Комикс!</h1>
-        <div class="about_comics">
-            <h3><b>Авторы:</b> Какие-то чуваки</h3>
-            <h3><b>Количество выпусков:</b> 123 123</h3>
-            <h3><b>Количество подписчиков:</b> 125 521</h3>
-            <h3><b>Возврастной рейтинг:</b> 99+</h3>
-        </div>
-        <div class="btn_comics">
-            <div class="read_comics">
-                R
-            </div>
-            <div class="favorite_comics">
-                F
-            </div>
-        </div>
-    </div>
 
-    <div class="gallery-comics">
-        <div class="picture_comics"></div>
-        <div class="picture_comics"></div>
-    </div>
 </div>

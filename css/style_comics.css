@@ -1,16 +1,299 @@
 .main-comics {
+    margin-left: 3%;
+
     display: inline-block;
     position: relative;
 }
 
-.background-comics img {
+.background-comics {
+
+    position: absolute;
+    background: linear-gradient(180deg, rgba(16, 16, 16, 0.2) 0%,
+                                        rgba(16, 16, 16, 0.4) 30%,
+                                        rgba(16, 16, 16, 0.75) 50%,
+                                        rgba(16, 16, 16, 0.9) 70%,
+                                            #101010 100%),
+                                        url("../Library/Maus/background.jpg"), #000000;
     background-size: cover;
-    width: 100%;
-    height: 400px;
-    z-index: 2;
+    width: 95vw;
+    height: 30em;
+    z-index: 1;
 }
 
-.info-comics {
+.content_page{
+    position: relative;
 
-    z-index: 1;
+
+    margin-top: 13em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3em;
+}
+
+.comics {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+    display: grid;
+    grid-template-columns: 25em 60em;
+    grid-column-gap: 5em;
+    grid-template-areas: "cmx-cover cmx-info";
+
+    justify-content: left;
+}
+
+.cover_comics {
+    grid-area: cmx-cover;
+}
+
+.cover_comics img {
+
+    /*height: 100%;*/
+
+    max-width: 25em;
+
+    border-radius: 0.3em;
+}
+
+.info_comics {
+    grid-area: cmx-info;
+    margin: 0;
+
+    position:relative;
+}
+
+.comics h1 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 6%;
+    font-size: 4.5em;
+}
+
+.about_comics h2{
+    font-size: 2.1em;
+}
+
+.btn_comics {
+
+    position: absolute;
+
+    vertical-align: bottom;
+    bottom: 4em;
+    left: 0;
+
+    display: grid;
+    width: 100%;
+    height: 2em;
+    grid-template-columns: 16em 6em;
+    grid-column-gap: 3em;
+    grid-template-areas: "btn-read btn-favorite";
+}
+
+.read_comics {
+    grid-area: btn-read;
+
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: #FFFFFF;
+    border-radius: 1em;
+
+
+
+    transition-duration: 0.1s;
+
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+
+    line-height: 2.4em;
+}
+
+.read_comics h2{
+    font-weight: bold;
+}
+
+.read_comics:hover{
+    color: #101010;
+    background-color: #FFFFFF;
+
+    transition-duration: 0.1s;
+}
+
+.favorite_comics{
+    grid-area: btn-favorite;
+    width: 6em;
+    height: 6em;
+
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: #FFFFFF;
+    border-radius: 20em;
+    background-color: #101010;
+    color: #FFFFFF;
+    transition-duration: 0.1s;
+
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    line-height: 6.8em;
+}
+
+.favorite_comics:hover {
+    color: #101010;
+    background-color: #FFFFFF;
+
+    transition-duration: 0.1s;
+}
+
+.favorite_comics span {
+    font-size: 2.5em;
+}
+
+.gallery-comics {
+    margin-top: 6em;
+
+    position: relative;
+
+    display: block;
+
+    max-width: 95vw;
+}
+
+.gallery-comics h1 {
+    font-size: 3.5em;
+}
+
+.item {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .comics {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: 20em 30em;
+        grid-column-gap: 5em;
+        grid-template-areas: "cmx-cover cmx-info";
+
+        justify-content: left;
+    }
+
+    .cover_comics img{
+        max-width: 20em;
+    }
+
+    .about_comics h2{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .comics {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: 15em 25em;
+        grid-column-gap: 5em;
+        grid-template-areas: "cmx-cover cmx-info";
+
+        justify-content: left;
+    }
+
+    .cover_comics img{
+        max-width: 15em;
+    }
+
+    .about_comics h2{
+        font-size: 1.2em;
+    }
+
+    .comics  h1 {
+        font-size: 3.5em;
+    }
+
+    .btn_comics {
+        height: 1.5em;
+        grid-template-columns: 13em 4em;
+        grid-column-gap: 2em;
+    }
+
+    .favorite_comics {
+        width: 6em;
+        height: 6em;
+    }
+
+    .gallery-comics h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-comics {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    .background-comics {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content_page {
+        margin-top: 8em;
+    }
+
+    .comics {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 5em;
+        grid-template-areas: "cmx-cover"
+                              "cmx-info";
+        grid-template-rows: 15em 20em;
+        grid-row-gap: 1.5em;
+        justify-content: left;
+    }
+
+    .cover_comics img{
+        max-width: 100%;
+        height: 15em;
+    }
+
+    .comics  h1 {
+        font-size: 2.5em;
+    }
+
+    .about_comics {
+        text-align: left;
+        padding-left: 1.3em;
+    }
+
+    .btn_comics {
+
+        position: absolute;
+
+        vertical-align: bottom;
+        bottom: 2em;
+
+        display: grid;
+        width: 100%;
+        height: 2em;
+        grid-template-columns: 16em 6em;
+        grid-column-gap: 3em;
+    }
 }
